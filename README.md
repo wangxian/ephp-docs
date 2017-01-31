@@ -1,4 +1,4 @@
-# ePHP v7 开发文档
+# 简介
 
 ePHP 是一个快速PHP框架
 
@@ -11,4 +11,8 @@ ePHP 是一个快速PHP框架
 > 3. 22222
 
 
+
+## License {#license}
+
+[MIT License](https://opensource.org/licenses/MIT)
 
