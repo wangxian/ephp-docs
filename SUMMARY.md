@@ -7,5 +7,5 @@
   * [控制器](docs/controller.md)
 * [部署](deploy.md)
 * [高级](adv.md)
-  * [cli-run](adv/cli-run.md)
+  * [命令行运行](adv/cli-run.md)
 
