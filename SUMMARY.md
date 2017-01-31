@@ -11,5 +11,6 @@
 * [部署](deploy.md)
 * [高级](adv.md)
   * [在命令行运行](adv/cli-run.md)
-  * [swoole](adv/swoole.md)
+  * [关于Swoole](adv/swoole.md)
+  * [关于连接池](adv/conn-pool.md)
 
