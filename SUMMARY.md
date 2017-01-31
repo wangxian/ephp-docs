@@ -9,4 +9,5 @@
   * 模型
   * 视图
   * 缓存
+* [deploy](deploy.md)
 
