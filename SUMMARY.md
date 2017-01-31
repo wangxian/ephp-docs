@@ -10,5 +10,6 @@
   * [模型](docs/model.md)
 * [部署](deploy.md)
 * [高级](adv.md)
-  * [命令行运行](adv/cli-run.md)
+  * [在命令行运行](adv/cli-run.md)
+  * [swoole](adv/swoole.md)
 
