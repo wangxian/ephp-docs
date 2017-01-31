@@ -7,7 +7,7 @@
   * [控制器](docs/controller.md)
   * [路由](docs/router.md)
   * [视图](docs/view.md)
-  * [model](docs/model.md)
+  * [模型](docs/model.md)
 * [部署](deploy.md)
 * [高级](adv.md)
   * [命令行运行](adv/cli-run.md)
