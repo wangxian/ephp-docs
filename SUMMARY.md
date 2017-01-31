@@ -13,6 +13,13 @@
   * [打印日志](docs/log.md)
   * [调试程序](docs/debug.md)
   * [全局帮助方法](docs/helpers.md)
+  * [常用类库](docs/libs.md)
+    * [mail](docs/libs/mail.md)
+    * http
+    * mcrytp
+    * func
+    * pinyin
+  * [exception](docs/exception.md)
 * [高级](adv.md)
   * [在命令行运行](adv/cli-run.md)
   * [关于Swoole](adv/swoole.md)
