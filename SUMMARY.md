@@ -13,10 +13,11 @@
   * [打印日志](docs/log.md)
   * [调试程序](docs/debug.md)
   * [全局帮助方法](docs/helpers.md)
-* [部署](deploy.md)
 * [高级](adv.md)
   * [在命令行运行](adv/cli-run.md)
   * [关于Swoole](adv/swoole.md)
   * [关于连接池](adv/conn-pool.md)
   * [引用第三方库](adv/3rd-libraries.md)
+* [部署](deploy.md)
+* [获取帮助](help.md)
 
