@@ -14,6 +14,7 @@
   * [调试程序](docs/debug.md)
   * [全局帮助方法](docs/helpers.md)
   * [异常处理](docs/exception.md)
+  * [启动命令介绍](docs/bin-cli.md)
   * [常用类库](docs/libs.md)
     * [mail](docs/libs/mail.md)
     * cookie
@@ -22,7 +23,6 @@
     * mcrytp
     * func
     * pinyin
-  * [bin-cli](docs/bin-cli.md)
 * [高级](adv.md)
   * [在命令行运行](adv/cli-run.md)
   * [关于Swoole](adv/swoole.md)
