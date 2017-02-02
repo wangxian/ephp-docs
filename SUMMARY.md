@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [快速开始](quick-start.md)
+* [5分钟快速开始](quick-start.md)
 * [安装](setup.md)
 * [开发文档](docs.md)
   * [目录结构](docs/dir.md)
