@@ -7,14 +7,11 @@
 1. PHP 5.5.9 及以上版本（建议7.0+）
 2. Composer 1.3.0 及以上版本
 
-
-
 > 补充**说明：**
+>
 > * 开发时不需要安装 nginx 或 apache
 > * 根据您的需要安装 PHP 常用扩展，如：curl, gd, mcrypt, mysqli, redis等
 > * 如果您已安装了docker，可以拉取代码后，直接 \`docker build -t myapp . && docker run\`
-
-
 
 ## 安装
 
@@ -25,10 +22,10 @@ composer create-project wangxian/ephp-installer=dev-master myapp --prefer-dist
 ## 运行
 
 ```bash
-# cd myapp/
+cd myapp/
 
-// 运行
-# bin/webdev
+# 运行
+bin/webdev
 ```
 
 ## 可能遇到的问题
