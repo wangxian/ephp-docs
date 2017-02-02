@@ -7,9 +7,14 @@
 1. PHP 5.5.9 及以上版本（建议7.0+）
 2. Composer 1.3.0 及以上版本
 
-> **说明：**  
-> 开发时不需要安装 nginx 或 apache  
-> 根据您的需要安装 PHP 常用扩展，如：curl, gd, mcrypt, mysqli, redis等
+
+
+> 补充**说明：**
+> * 开发时不需要安装 nginx 或 apache
+> * 根据您的需要安装 PHP 常用扩展，如：curl, gd, mcrypt, mysqli, redis等
+> * 如果您已安装了docker，可以拉取代码后，直接 \`docker build -t myapp . && docker run\`
+
+
 
 ## 安装
 
@@ -39,10 +44,4 @@ composer create-project wangxian/ephp-installer=dev-master myapp --prefer-dist
 ### 无法运行webdev
 
 可能的原因，PHP版本过低，或者新安装的PHP不在系统环境变量里，请把安装的PHP的bin目录，加入到系统环境变量里。
-
-
-
-
-
-
 

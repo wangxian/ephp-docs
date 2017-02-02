@@ -12,6 +12,16 @@ ePHP项目开始用2009年，经过多年的发展，已经十分成熟稳定。
 > 1. ePHP v7 重新发布，新版重新亮相
 > 2. 重新编写了开发文档
 
+## 核心特性 {#license}
+
+1. 极简不臃肿
+2. 完全基于 Composer，不强制 class 命名空间约束
+3. 强大且安全的数据库CURD操作
+4. 强大而简单的路由模式
+5. 基于 Swoole 实现非阻塞I/O服务
+6. 高效且强大的View组件（支持多级layout, 直接include, 视图cache，多视图模式）
+7. 少即是多的扩展组件
+
 ## License {#license}
 
 [MIT License](https://opensource.org/licenses/MIT)
