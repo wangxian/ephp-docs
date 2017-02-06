@@ -24,9 +24,11 @@
     * func
     * pinyin
 * [高级](adv.md)
-  * [在命令行运行](adv/cli-run.md)
+  * [切换服务器运行模式](adv/switch-server-mode.md)
+  * [在命令行下运行ePHP](adv/cli-run.md)
   * [使用协程](adv/swoole.md)
   * [关于连接池](adv/conn-pool.md)
+  * [使用协程操作MySQL](adv/coroutine-mysql.md)
   * [引用第三方库](adv/3rd-libraries.md)
 * [部署](deploy.md)
 * [获取帮助](help.md)
