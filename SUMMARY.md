@@ -16,13 +16,13 @@
   * [异常处理](docs/exception.md)
   * [启动命令介绍](docs/bin-cli.md)
   * [常用类库](docs/libs.md)
-    * [mail](docs/libs/mail.md)
-    * cookie
-    * session
-    * http
-    * mcrytp
-    * func
-    * pinyin
+    * [Mail](docs/libs/mail.md)
+    * [Cookie](docs/libs/cookie.md)
+    * Session
+    * Http
+    * Mcrytp
+    * Func
+    * Pinyin
 * [高级](adv.md)
   * [切换服务器运行模式](adv/switch-server-mode.md)
   * [在命令行下运行ePHP](adv/cli-run.md)
