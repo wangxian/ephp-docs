@@ -19,14 +19,12 @@ $http->server->on('task', function (\swoole_server $serv, $task_id, $from_id, $d
 $http->start();
 ```
 
-
-
-在控制器，推到异步任务到任务队列，并异步得到结果
+在控制器中，推到异步任务到任务队列
 
 ```php
 \ePHP\Core\Server::init()->server->task(["jobName"="log", "data"="...."], -1, function (\swoole_server $serv, $task_id, $data)
 {
-    var_dump($data);
+    var_dump("执行完成，data=", $data);
 });
 ```
 
