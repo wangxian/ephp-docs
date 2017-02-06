@@ -24,7 +24,7 @@ $http->start();
 ```php
 \ePHP\Core\Server::init()->server->task(["jobName"="log", "data"="...."], -1, function (\swoole_server $serv, $task_id, $data)
 {
-    var_dump("执行完成，data=", $data);
+    var_dump("异步执行完成，data=", $data);
 });
 ```
 
