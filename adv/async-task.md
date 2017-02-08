@@ -10,7 +10,8 @@ $http = \ePHP\Core\Server::init()->createServer($config);
 // Backend Task
 $http->server->on('task', function (\swoole_server $serv, $task_id, $from_id, $data)
 {
-    var_dump("task-data=", $data);
+    var_dump("receive task-data=", $data);
+    sleep(5);
 
     // return to the worker
     return $data;
@@ -22,7 +23,7 @@ $http->start();
 在控制器中，推到异步任务到任务队列
 
 ```php
-\ePHP\Core\Server::init()->server->task(["jobName"="log", "data"="...."], -1, function (\swoole_server $serv, $task_id, $data)
+$this->server->task(['jobName' => 'log', 'data' => '...'], -1, function (\swoole_server $serv, $task_id, $data)
 {
     var_dump("异步执行完成，data=", $data);
 });
