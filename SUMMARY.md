@@ -32,6 +32,7 @@
   * [引用第三方库](adv/3rd-libraries.md)
   * [协程HTTP客户端](adv/coroutine-http.md)
   * [使用后台任务](adv/async-task.md)
+  * [使用缓存](adv/using-cache.md)
 * [部署](deploy.md)
 * [获取帮助](help.md)
 
