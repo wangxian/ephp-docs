@@ -10,14 +10,13 @@ $this->session->set($name, $value);
 $this->session->get('user.name');
 ```
 
-
-
 方法二
 
 ```php
 // 控制器没继承\ePHP\Core\Controller
 $cookie = new \ePHP\Http\Session();
 $cookie->set($name, $value);
+
 // ... 同上
 ```
 
