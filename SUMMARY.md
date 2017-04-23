@@ -18,7 +18,7 @@
   * [常用类库](docs/libs.md)
     * [Mail](docs/libs/mail.md)
     * [Cookie](docs/libs/cookie.md)
-    * Session
+    * [Session](docs/libs/session.md)
     * Http
     * Mcrytp
     * Func
