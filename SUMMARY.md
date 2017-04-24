@@ -19,10 +19,10 @@
     * [Mail](docs/libs/mail.md)
     * [Cookie](docs/libs/cookie.md)
     * [Session](docs/libs/session.md)
-    * Http
-    * Mcrytp
+    * [Mcrytp](docs/libs/mcrytp.md)
     * Func
-    * Pinyin
+    * [Pinyin](docs/libs/pinyin.md)
+    * [Httpclient](docs/libs/httpclient.md)
 * [高级](adv.md)
   * [切换服务器运行模式](adv/switch-server-mode.md)
   * [在命令行下运行ePHP](adv/cli-run.md)
