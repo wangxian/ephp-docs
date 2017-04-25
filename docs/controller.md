@@ -15,8 +15,6 @@ class RootController extends \ePHP\Core\Controller
 }
 ```
 
-
-
 **控制器对象：**
 
 * $this-&gt;view
@@ -25,8 +23,6 @@ class RootController extends \ePHP\Core\Controller
 * $this-&gt;server // swoole only
 * $this-&gt;httpclient 使用方法参考 常用类库-&gt;Httpclient 类
 * $this-&gt;cache
-
-
 
 **控制器方法：**
 
