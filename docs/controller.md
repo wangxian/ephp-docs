@@ -17,3 +17,22 @@ class RootController extends \ePHP\Core\Controller
 
 
 
+**控制器对象：**
+
+* $this-&gt;view
+* $this-&gt;session
+* $this-&gt;cookie // 兼容 swoole
+* $this-&gt;server // swoole only
+* $this-&gt;httpclient 使用方法参考 常用类库-&gt;Httpclient 类
+* $this-&gt;cache
+
+
+
+**控制器方法：**
+
+* protected function stopRun\(\) 停止当前request，主要用在swoole模式，替代exit
+
+* protected function isAjax\(\) 判断当前请求是否是ajax请求
+
+
+
