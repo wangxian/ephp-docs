@@ -24,6 +24,17 @@ $this->httpclient->post('http://test.com/index/echo',
 - patch($url, $params = array(), $options = array())
 - delete($url, $params = array(), $options = array())
 
+// $params 只接收Array类型
+ 
+// $options 可选参数
+- header 接收如 ["Host: apibx.xx.com", "Name: xxxxx", "Content-type: application/json"]
+- json 可选true\false, 默认false，如果true，params以"Content-type: application/json"传输
+- files 文件上传列表
+- sslcert_path
+- sslkey_path
+- timeout 超时时间,单位秒
+- auth http basic认证密码, 参数形式['type'=>'basic', 'username'=>'', 'password'=>'']
+
 // 上传文件
 $this->httpclient->post('http://apib2.wboll.com/index/echo',
     ['id'=> 'postdata'],
