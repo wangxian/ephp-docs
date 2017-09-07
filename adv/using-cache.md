@@ -9,15 +9,15 @@ Cache实例的方法
 * $this-&gt;cache-&gt;delete\(string $key\)
 * $this-&gt;cache-&gt;flush\(\)
 
-
-
 可在主配置文件中设置 `cache_driver`
 
 ```php
     // 设置缓存驱动方式
-    // 可选：file, memcached, redis
+    // 可选：file, memcached, redis, predis
     'cache_driver'  => 'file',
 ```
+
+
 
 
 
